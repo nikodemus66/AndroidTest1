@@ -34,4 +34,14 @@
         android:text="Medium Text"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="52dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="Button" />
+
 </RelativeLayout>
